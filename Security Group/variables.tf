@@ -32,3 +32,9 @@ variable "egress_rules" {
   }))
   description = "List of egress (outbound) rules"
 }
+
+# environment variable
+variable "project_name" {}
+variable "environment" {}
+variable "ssh_ip" {}
+
